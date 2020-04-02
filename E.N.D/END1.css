@@ -1,13 +1,15 @@
 .container1 {
   display: flex;
   flex-wrap: wrap;
-  padding: 8px;
+  padding: 20px;
   height: 100px;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
 }
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 40px 0;
+  font-family: 'Raleway';
+  font-size: 14px;
   color: #3c3939;
   background-image: url(EndBG.jpg);
   background-repeat: no-repeat;
@@ -15,14 +17,18 @@ body {
   background-color: #f1f1f1;
 }
 .profile-card {
-  width: 300px;
+  width: 240px;
   margin: auto;
-  background: #fff;
+  background: rgb(255, 255, 255);
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+  flex: 0 0 240px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(black, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
+    inset rgba(white, 0.5) 0 0 0 6px;
 }
-.image-container {
-  position: relative;
-}
+
+/*Icon code */
 .info {
   color: #4b4fe2;
   margin-right: 16px;
@@ -30,15 +36,10 @@ body {
 .main-container {
   padding: 20px;
 }
-
 .title {
   position: relative;
   left: 15px;
   bottom: 0;
-}
-
-.column {
-  align-items: flex-start;
 }
 
 /* Navbar */
@@ -67,4 +68,19 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
 }

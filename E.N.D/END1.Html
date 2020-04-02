@@ -6,253 +6,265 @@
     <title>End</title>
   </head>
   <body>
-    <!--Navbar-->
-    <ul class="breadcrumb">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">News Feed</a></li>
-      <li><a href="#">Users</a></li>
-      <li><a href="#">Admin</a></li>
-    </ul>
+    <div class="wrapper">
+      <!--Navbar-->
+      <ul class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News Feed</a></li>
+        <li><a href="#">Users</a></li>
+        <li><a href="#">Admin</a></li>
+      </ul>
 
-    <!--Modal form-->
-    <div
-      class="modal fade"
-      id="modalRegisterForm"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="myModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header text-center">
-            <h4 class="modal-title">Sign up</h4>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body mx-3">
-            <div class="md-form mb-5">
-              <input
-                type="text"
-                id="orangeForm-name"
-                class="form-control validate"
-              />
-              <label
-                data-error="wrong"
-                data-success="right"
-                for="orangeForm-name"
-                >Your Name</label
+      <!--Modal form-->
+      <div
+        class="modal fade"
+        id="modalRegisterForm"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="myModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header text-center">
+              <h4 class="modal-title">Sign up</h4>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
               >
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
-            <div class="md-form mb-5">
-              <input
-                type="text"
-                id="orangeForm-email"
-                class="form-control validate"
-              />
-              <label
-                data-error="wrong"
-                data-success="right"
-                for="orangeForm-email"
-                >Your Occupation</label
-              >
+            <div class="modal-body mx-3">
+              <div class="md-form mb-5">
+                <input
+                  type="text"
+                  id="orangeForm-name"
+                  class="form-control validate"
+                />
+                <label
+                  data-error="wrong"
+                  data-success="right"
+                  for="orangeForm-name"
+                  >Your Name</label
+                >
+              </div>
+              <div class="md-form mb-5">
+                <input
+                  type="text"
+                  id="orangeForm-email"
+                  class="form-control validate"
+                />
+                <label
+                  data-error="wrong"
+                  data-success="right"
+                  for="orangeForm-email"
+                  >Your Occupation</label
+                >
+              </div>
+              <div class="md-form mb-5">
+                <input
+                  type="email"
+                  id="orangeForm-email"
+                  class="form-control validate"
+                />
+                <label
+                  data-error="wrong"
+                  data-success="right"
+                  for="orangeForm-email"
+                  >Your email</label
+                >
+              </div>
+              <div class="md-form mb-4">
+                <input
+                  type="text"
+                  id="orangeForm-pass"
+                  class="form-control validate"
+                />
+                <label
+                  data-error="wrong"
+                  data-success="right"
+                  for="orangeForm-pass"
+                  >Your Number</label
+                >
+              </div>
+              <div class="md-form mb-5">
+                <input
+                  type="text"
+                  id="orangeForm-email"
+                  class="form-control validate"
+                />
+                <label
+                  data-error="wrong"
+                  data-success="right"
+                  for="orangeForm-email"
+                  >Your Home Address</label
+                >
+              </div>
+              <div class="md-form mb-5">
+                <input
+                  type="text"
+                  id="orangeForm-email"
+                  class="form-control validate"
+                />
+                <label
+                  data-error="wrong"
+                  data-success="right"
+                  for="orangeForm-email"
+                  >Your Next of Kin</label
+                >
+              </div>
+              <div class="md-form mb-5">
+                <input
+                  type="text"
+                  id="orangeForm-email"
+                  class="form-control validate"
+                />
+                <label
+                  data-error="wrong"
+                  data-success="right"
+                  for="orangeForm-email"
+                  >Your Relationship</label
+                >
+              </div>
+              <div class="md-form mb-5">
+                <input
+                  type="text"
+                  id="orangeForm-email"
+                  class="form-control validate"
+                />
+                <label
+                  data-error="wrong"
+                  data-success="right"
+                  for="orangeForm-email"
+                  >Your next of kin Number</label
+                >
+              </div>
+              <div class="md-form mb-5">
+                <input
+                  type="email"
+                  id="orangeForm-email"
+                  class="form-control validate"
+                />
+                <label
+                  data-error="wrong"
+                  data-success="right"
+                  for="orangeForm-email"
+                  >Your next of kin Email</label
+                >
+              </div>
             </div>
-            <div class="md-form mb-5">
-              <input
-                type="email"
-                id="orangeForm-email"
-                class="form-control validate"
-              />
-              <label
-                data-error="wrong"
-                data-success="right"
-                for="orangeForm-email"
-                >Your email</label
-              >
+            <div class="modal-footer d-flex justify-content-center">
+              <button class="btn btn-deep btn-orange">Sign up</button>
             </div>
-            <div class="md-form mb-4">
-              <input
-                type="text"
-                id="orangeForm-pass"
-                class="form-control validate"
-              />
-              <label
-                data-error="wrong"
-                data-success="right"
-                for="orangeForm-pass"
-                >Your Number</label
-              >
-            </div>
-            <div class="md-form mb-5">
-              <input
-                type="text"
-                id="orangeForm-email"
-                class="form-control validate"
-              />
-              <label
-                data-error="wrong"
-                data-success="right"
-                for="orangeForm-email"
-                >Your Home Address</label
-              >
-            </div>
-            <div class="md-form mb-5">
-              <input
-                type="text"
-                id="orangeForm-email"
-                class="form-control validate"
-              />
-              <label
-                data-error="wrong"
-                data-success="right"
-                for="orangeForm-email"
-                >Your Next of Kin</label
-              >
-            </div>
-            <div class="md-form mb-5">
-              <input
-                type="text"
-                id="orangeForm-email"
-                class="form-control validate"
-              />
-              <label
-                data-error="wrong"
-                data-success="right"
-                for="orangeForm-email"
-                >Your Relationship</label
-              >
-            </div>
-            <div class="md-form mb-5">
-              <input
-                type="text"
-                id="orangeForm-email"
-                class="form-control validate"
-              />
-              <label
-                data-error="wrong"
-                data-success="right"
-                for="orangeForm-email"
-                >Your next of kin Number</label
-              >
-            </div>
-            <div class="md-form mb-5">
-              <input
-                type="email"
-                id="orangeForm-email"
-                class="form-control validate"
-              />
-              <label
-                data-error="wrong"
-                data-success="right"
-                for="orangeForm-email"
-                >Your next of kin Email</label
-              >
-            </div>
-          </div>
-          <div class="modal-footer d-flex justify-content-center">
-            <button class="btn btn-deep btn-orange">Sign up</button>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="text-center">
-      <a
-        href=""
-        class="btn btn-default btn-rounded mb-4"
+      <div class="text-center">
+        <a
+          href=""
+          class="btn btn-primary btn-rounded mb-4"
+          data-toggle="modal"
+          data-target="#modalRegisterForm"
+        >
+          Register Form</a
+        >
+      </div>
+
+      <!--Profile templates-->
+      <div class="container1 row">
+        <div class="profile profile-card profile-dismissible fade show column">
+          <div
+            class="image-container"
+            
+          >
+            <img src="Toss.jpg" style="width:100%" />
+            <div class="title">
+              <h2>Geralt ofRivia</h2>
+            </div>
+            <div class="main-container">
+              <p><i class="fa fa-briefcase info"></i>Witcher</p>
+              <p><i class="fa fa-home info"></i>Rivia</p>
+              <p>
+                <i class="fa fa-envelope info"></i>Geralt@SchooloftheWolf.com
+              </p>
+              <p><i class="fa fa-phone info"></i>08124098</p>
+              
+
+              <p>
+                <b><i class="fa fa-asterisk info"></i>Extra info Below</b>
+              </p>
+
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#myModal"
+              >
+                Press me
+              </button>
+              <button
+        type="button"
+        class="btn btn-primary"
         data-toggle="modal"
-        data-target="#modalRegisterForm"
-      >
-        Register Form</a
-      >
-    </div>
+        data-target="#deleteUser">
+        Remove
+      </button>
 
-    <!--Profile templates-->
-    <div class="container1">
-      <div class="profile profile-card profile-dismissible fade show">
-        <div class="image-container">
-          <button type="button" class="close" data-dismiss="alert">
-            &times;
-          </button>
+              <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title ">Extra info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
 
-          <img src="Toss.jpg" style="width:100%" />
-          <div class="title">
-            <h2>Geralt ofRivia</h2>
-          </div>
-          <div class="main-container">
-            <p><i class="fa fa-briefcase info"></i>Witcher</p>
-            <p><i class="fa fa-home info"></i>Rivia</p>
-            <p><i class="fa fa-envelope info"></i>Geralt@SchooloftheWolf.com</p>
-            <p><i class="fa fa-phone info"></i>08124098</p>
-            <hr />
-
-            <p>
-              <b><i class="fa fa-asterisk info"></i>Extra info Below</b>
-            </p>
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#myModal"
-            >
-              Press me
-            </button>
-
-            <div class="modal" id="myModal">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title ">Extra info</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                      &times;
-                    </button>
-                  </div>
-
-                  <div class="modal-body alert-primary">
-                    <p><i class="fa fa-home info"></i>The Black keep</p>
-                    <p><i class="fa fa-bug info"></i>Ciri</p>
-                    <p>
-                      <i class="fa fa-check info"></i>Yennefer of Vengerberg
-                    </p>
-                    <p><i class="fa fa-envelope info"></i>Yennefer@Witch.com</p>
-                    <p><i class="fa fa-phone info"></i>08124098</p>
-                    <hr />
+                    <div class="modal-body alert-primary">
+                      <p><i class="fa fa-home info"></i>The Black keep</p>
+                      <p><i class="fa fa-bug info"></i>Ciri</p>
+                      <p>
+                        <i class="fa fa-check info"></i>Yennefer of Vengerberg
+                      </p>
+                      <p>
+                        <i class="fa fa-envelope info"></i>Yennefer@Witch.com
+                      </p>
+                      <p><i class="fa fa-phone info"></i>08124098</p>
+                      
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="profile profile-card profile-dismissible fade show">
-        <div class="image-container">
-          <button type="button" class="close" data-dismiss="alert">
-            &times;
-          </button>
+        <div class="profile profile-card profile-dismissible fade show column">
+          <div
+            class="image-container"
+          >
+            <img src="Dandy.jpg" style="width:100%" />
+            <div class="title">
+              <h2>Dandelion</h2>
+            </div>
+            <div class="main-container">
+              <p><i class="fa fa-briefcase info"></i>Bard</p>
+              <p><i class="fa fa-home info"></i>Flotsom</p>
+              <p>
+                <i class="fa fa-envelope info"></i>Dandy@TheBardscollage.com
+              </p>
+              <p><i class="fa fa-phone info"></i>08124098</p>
+              
 
-          <img src="Dandy.jpg" style="width:100%" />
-          <div class="title">
-            <h2>Dandelion</h2>
-          </div>
-          <div class="main-container">
-            <p><i class="fa fa-briefcase info"></i>Bard</p>
-            <p><i class="fa fa-home info"></i>Flotsom</p>
-            <p><i class="fa fa-envelope info"></i>Dandy@TheBardscollage.com</p>
-            <p><i class="fa fa-phone info"></i>08124098</p>
-            <hr />
+              <p>
+                <b><i class="fa fa-asterisk info"></i>Extra info Below</b>
+              </p>
 
-            <p>
-              <b><i class="fa fa-asterisk info"></i>Extra info Below</b>
-            </p>
-
-            <button
+              <button
               type="button"
               class="btn btn-primary"
               data-toggle="modal"
@@ -260,149 +272,188 @@
             >
               Press me
             </button>
-
-            <div class="modal" id="myModal1">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title alert-danger">Extra info</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                      &times;
-                    </button>
-                  </div>
-
-                  <div class="modal-body alert-primary">
-                    <p><i class="fa fa-home info"></i>Flotsom</p>
-                    <p><i class="fa fa-bug info"></i>No next of kin</p>
-                    <p><i class="fa fa-check info"></i>Priscilla</p>
-                    <p>
-                      <i class="fa fa-envelope info"></i>Priscilla@TheBard.com
-                    </p>
-                    <p><i class="fa fa-phone info"></i>08124098</p>
-                    <hr />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="profile profile-card profile-dismissible fade show">
-        <div class="image-container">
-          <button type="button" class="close" data-dismiss="alert">
-            &times;
-          </button>
-
-          <img src="Yen.jpg" style="width:100%" />
-          <div class="title">
-            <h2>Yennefer of Vengerberg</h2>
-          </div>
-          <div class="main-container">
-            <p><i class="fa fa-briefcase info"></i>Witch</p>
-            <p><i class="fa fa-home info"></i>Vengerberg</p>
-            <p><i class="fa fa-envelope info"></i>Yen@Somecoven.com</p>
-            <p><i class="fa fa-phone info"></i>08124098</p>
-            <hr />
-
-            <p>
-              <b><i class="fa fa-asterisk info"></i>Extra info Below</b>
-            </p>
-
             <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#myModal2"
-            >
-              Press me
-            </button>
+        type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#deleteUser">
+        Remove
+      </button>
 
-            <div class="modal" id="myModal2">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title alert-danger">Extra info</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                      &times;
-                    </button>
+              <div class="modal" id="myModal1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title alert-danger">Extra info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+
+                    <div class="modal-body alert-primary">
+                      <p><i class="fa fa-home info"></i>Flotsom</p>
+                      <p><i class="fa fa-bug info"></i>No next of kin</p>
+                      <p><i class="fa fa-check info"></i>Priscilla</p>
+                      <p>
+                        <i class="fa fa-envelope info"></i>Priscilla@TheBard.com
+                      </p>
+                      <p><i class="fa fa-phone info"></i>08124098</p>
+                      <hr />
+                      
+                    </div>
                   </div>
+                </div>
+              </div>
+            </div>
+           </div> 
+          </div>
 
-                  <div class="modal-body alert-primary">
-                    <p><i class="fa fa-home info"></i>Vengerberg</p>
-                    <p><i class="fa fa-bug info"></i>No next of kin</p>
-                    <p><i class="fa fa-check info"></i>Geralt of Rivia</p>
-                    <p>
-                      <i class="fa fa-envelope info"></i
-                      >Geralt@SchooloftheWolf.com
-                    </p>
-                    <p><i class="fa fa-phone info"></i>08124098</p>
-                    <hr />
+        <div class="profile profile-card profile-dismissible fade show column">
+          <div
+            class="image-container"
+          >
+            <img src="Yen.jpg" style="width:100%" />
+            <div class="title">
+              <h2>Yennefer of Vengerberg</h2>
+            </div>
+            <div class="main-container">
+              <p><i class="fa fa-briefcase info"></i>Witch</p>
+              <p><i class="fa fa-home info"></i>Vengerberg</p>
+              <p><i class="fa fa-envelope info"></i>Yen@Somecoven.com</p>
+              <p><i class="fa fa-phone info"></i>08124098</p>
+              <p>
+                <b><i class="fa fa-asterisk info"></i>Extra info Below</b>
+              </p>
+
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#myModal2"
+              >
+                Press me
+              </button>
+              <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#deleteUser">
+        Remove
+      </button>
+
+              <div class="modal" id="myModal2">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title alert-danger">Extra info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+
+                    <div class="modal-body alert-primary">
+                      <p><i class="fa fa-home info"></i>Vengerberg</p>
+                      <p><i class="fa fa-bug info"></i>No next of kin</p>
+                      <p><i class="fa fa-check info"></i>Geralt of Rivia</p>
+                      <p><i class="fa fa-envelope info"></i>Geralt@SchooloftheWolf.com</p>
+                      <p><i class="fa fa-phone info"></i>08124098</p>
+                      
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="profile profile-card profile-dismissible fade show">
-        <div class="image-container">
-          <button type="button" class="close" data-dismiss="alert">
-            &times;
-          </button>
+        <div class="profile profile-card profile-dismissible fade show column">
+          <div
+            class="image-container"
+          >
+            <img src="Ciri.jpg" style="width:100%" />
+            <div class="title">
+              <h2>Cirilla Fiona Elen Riannon</h2>
+            </div>
+            <div class="main-container">
+              <p><i class="fa fa-briefcase info"></i>Witcher</p>
+              <p><i class="fa fa-home info"></i>Skellige</p>
+              <p>
+                <i class="fa fa-envelope info"></i>Cirilla@SchooloftheWolf.com
+              </p>
+              <p><i class="fa fa-phone info"></i>08124098</p>
+              <hr />
+              <p>
+                <b><i class="fa fa-asterisk info"></i>Extra info Below</b>
+              </p>
 
-          <img src="Ciri.jpg" style="width:100%" />
-          <div class="title">
-            <h2>Cirilla Fiona Elen Riannon</h2>
-          </div>
-          <div class="main-container">
-            <p><i class="fa fa-briefcase info"></i>Witcher</p>
-            <p><i class="fa fa-home info"></i>Skellige</p>
-            <p>
-              <i class="fa fa-envelope info"></i>Cirilla@SchooloftheWolf.com
-            </p>
-            <p><i class="fa fa-phone info"></i>08124098</p>
-            <hr />
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#myModal3"
+              >
+                Press me
+              </button>
+              <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#deleteUser">
+        Remove
+      </button>
 
-            <p>
-              <b><i class="fa fa-asterisk info"></i>Extra info Below</b>
-            </p>
+              <div class="modal" id="myModal3">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title alert-danger">Extra info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
 
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#myModal3"
-            >
-              Press me
-            </button>
-
-            <div class="modal" id="myModal3">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title alert-danger">Extra info</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                      &times;
-                    </button>
-                  </div>
-
-                  <div class="modal-body alert-primary">
-                    <p><i class="fa fa-home info"></i>Belleteyn</p>
-                    <p><i class="fa fa-bug info"></i>No next of kin</p>
-                    <p><i class="fa fa-check info"></i>No love intrest</p>
-                    <p><i class="fa fa-envelope info"></i>blank</p>
-                    <p><i class="fa fa-phone info"></i>blank</p>
-                    <hr />
+                    <div class="modal-body alert-primary">
+                      <p><i class="fa fa-home info"></i>Belleteyn</p>
+                      <p><i class="fa fa-bug info"></i>No next of kin</p>
+                      <p><i class="fa fa-check info"></i>No love intrest</p>
+                      <p><i class="fa fa-envelope info"></i>blank</p>
+                      <p><i class="fa fa-phone info"></i>blank</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+      <!--delete modal-->
+
+      <div class="modal" id="deleteUser">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Are you sure you want to remove a user</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+
+            <div class="modal-body">
+              <button class="btn btn-primary">yes</button>
+              <button class="btn btn-danger">no</button>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+            </div>
+          </div>
+        </div>
       </div>
+    
+
+    <div class="content">
+      content
     </div>
+    <footer class="footer"></footer>
 
     <!--  scripts -->
     <script
@@ -434,10 +485,5 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="END1.css" />
-    <!-- <footer>
-      <p>Posted by: Michael Bruwer</p>
-      <p>Contact information: <a href="mailto:michaelbruwer21@gmail.com">
-      michaelbruwer21@gmail.com</a>.</p>
-    </footer> -->
   </body>
 </html>
