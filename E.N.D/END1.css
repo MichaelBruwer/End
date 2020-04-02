@@ -1,79 +1,70 @@
 .container1 {
-    display: flex;   
-    flex-wrap: wrap;  
-    padding: 8px;
-    height: 100px; 
-    width: 100%;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  height: 100px;
+  width: 100%;
+  justify-content: space-around;
+}
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #3c3939;
+  background-image: url(EndBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f1f1f1;
+}
+.profile-card {
+  width: 300px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.image-container {
+  position: relative;
+}
+.info {
+  color: #4b4fe2;
+  margin-right: 16px;
+}
+.main-container {
+  padding: 20px;
 }
 
-body
-{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #3c3939;
-    background-color: #f1f1f1;
-}
-.profile-card
-{
-    width: 300px;
-    margin: auto;
-    background: #fff;
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
-}
-.image-container
-{
-    position: relative;
-}
-.info
-{
-    color: #4b4fe2;
-    margin-right: 16px;
-}
-.main-container 
-{
-    padding: 20px;
+.title {
+  position: relative;
+  left: 15px;
+  bottom: 0;
 }
 
-.title
-{
-    position: relative;
-    left: 15px;
-    bottom: 0;
+.column {
+  align-items: flex-start;
 }
 
-.column{
-    align-items: flex-start;
+/* Navbar */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
 }
 
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
 
- /* Navbar */
- ul.breadcrumb {
-    padding: 10px 16px;
-    list-style: none;
-    background-color: #eee;
-  }
-  
-  ul.breadcrumb li {
-    display: inline;
-    font-size: 18px;
-  }
-  
-  ul.breadcrumb li+li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
-  }
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: '/\00a0';
+}
 
-  ul.breadcrumb li a {
-    color: #0275d8;
-    text-decoration: none;
-  }
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
 
-  ul.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: underline;
-  } 
-
-
-
-
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
